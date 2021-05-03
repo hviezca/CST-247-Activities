@@ -1,0 +1,53 @@
+﻿@model List<Activity2Part1.Models.UserModel>
+
+@{
+    Layout = null;
+
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Test</title>
+</head>
+<body>
+    <div>
+        @Html.ActionLink("Refresh Page", "")
+    </div>
+    <div class="container" style="font-family: Arial">
+        <h3 class=" text-center"><strong>@Html.Label("Welcome to Razor")</strong></h3>
+        <h4><strong>@Html.Label("My Customers are")</strong></h4>
+    </div>
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{int rownum = 1;}
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <th scope="row">@rownum</th>
+                        <td>@Html.DisplayFor(modelItem => user.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => user.EmailAddress)</td>
+                        <td>@Html.DisplayFor(modelItem => user.PhoneNumber)</td>
+                    </tr>
+                    rownum++;
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

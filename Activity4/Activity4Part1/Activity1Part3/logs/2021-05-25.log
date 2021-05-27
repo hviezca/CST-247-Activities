@@ -1,0 +1,6 @@
+2021-05-25 22:04:57.3712 INFO Entering LoginController.Login()
+2021-05-25 22:04:57.4213 INFO Parameters are {"Username":"test","Password":"test"}
+2021-05-25 22:04:58.2592 INFO Exit LoginController.Login() with login passing
+2021-05-25 22:05:03.8381 INFO Entering LoginController.Login()
+2021-05-25 22:05:03.8381 INFO Parameters are {"Username":"test","Password":"asdf"}
+2021-05-25 22:05:03.8381 WARN Exit LoginController.Login() with login failing

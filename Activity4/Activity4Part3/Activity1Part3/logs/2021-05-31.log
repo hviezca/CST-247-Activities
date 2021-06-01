@@ -1,0 +1,31 @@
+2021-05-31 17:15:48.1082 INFO Entering Login.Index
+2021-05-31 17:15:48.1372 INFO Leaving Login.Index
+2021-05-31 17:15:55.2812 INFO Entering Login.GetUsers
+2021-05-31 17:15:55.2812 INFO Cache is empty. Creating new user list and adding to cache.
+2021-05-31 17:15:55.2812 INFO Leaving Login.GetUsers
+2021-05-31 17:16:08.2919 INFO Entering Login.GetUsers
+2021-05-31 17:16:08.2919 INFO Users found in cache.
+2021-05-31 17:16:08.2919 INFO Leaving Login.GetUsers
+2021-05-31 17:17:06.0080 INFO Entering Login.GetUsers
+2021-05-31 17:17:06.0090 INFO Cache is empty. Creating new user list and adding to cache.
+2021-05-31 17:17:06.0090 INFO Leaving Login.GetUsers
+2021-05-31 18:19:06.6155 INFO Entering Login.Index
+2021-05-31 18:19:06.6430 INFO Leaving Login.Index
+2021-05-31 18:53:19.8739 INFO Entering Login.Index
+2021-05-31 18:53:19.9018 INFO Leaving Login.Index
+2021-05-31 18:53:35.1448 INFO Entering Login.Index
+2021-05-31 18:53:35.1448 INFO Leaving Login.Index
+2021-05-31 18:57:54.3392 INFO Entering Login.Index
+2021-05-31 18:57:54.3672 INFO Leaving Login.Index
+2021-05-31 19:02:20.3127 INFO Entering Login.Index
+2021-05-31 19:02:20.3416 INFO Leaving Login.Index
+2021-05-31 19:05:51.3247 INFO Entering Login.Index
+2021-05-31 19:05:51.3509 INFO Leaving Login.Index
+2021-05-31 19:20:00.4465 INFO Entering Login.Index
+2021-05-31 19:20:00.4735 INFO Leaving Login.Index
+2021-05-31 19:46:27.6263 INFO Entering Login.Index
+2021-05-31 19:46:27.6532 INFO Leaving Login.Index
+2021-05-31 19:48:29.7284 INFO Entering Login.Index
+2021-05-31 19:48:29.7563 INFO Leaving Login.Index
+2021-05-31 19:50:04.6436 INFO Entering Login.Index
+2021-05-31 19:50:04.6735 INFO Leaving Login.Index

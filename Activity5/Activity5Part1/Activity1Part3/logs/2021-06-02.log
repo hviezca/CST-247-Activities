@@ -1,0 +1,4 @@
+2021-06-02 12:20:02.4710 INFO Entering Login.Index
+2021-06-02 12:20:02.5009 INFO Leaving Login.Index
+2021-06-02 12:20:15.2196 INFOTest Logging in TestLoggingSerice3.Logger.Info() Successful!
+2021-06-02 12:20:15.2196 INFOTest Logging in TestService.TestLogger() invoked.

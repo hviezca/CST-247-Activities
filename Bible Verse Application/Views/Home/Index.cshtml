@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1 class="text-center">Welcome</h1>
+    <p class="lead">Save your favorite Bible verses in Bible Verse App!</p>
+    <p>@Html.ActionLink("Learn More", "About", "Home", new { @class = "btn btn-primary" })</p>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>Bible Verse Entry</h2>
+        <p>
+            Create a new Bible verse entry.
+        </p>
+        <p><a class="btn btn-primary" href="~/Entry/Index">Entry</a></p>
+    </div>
+    <div class="col-md-6">
+        <h2>Search</h2>
+        <p>Search for a Bible verse.</p>
+        <p><a class="btn btn-primary" href="~/Entry/Search">Search</a></p>
+    </div>
+</div>
